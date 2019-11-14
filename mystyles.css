@@ -1,0 +1,212 @@
+body    {
+    background-color: #fefefe;
+    font-family: "arial", sans-serif;
+    font-size: .9em;
+}
+
+h1  {
+    font-weight: 400;
+    font-size: 2.7em;
+}
+
+h2  {
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+.hero   {
+    box-shadow: 0px 5px rgba(10,10,10,0.1);
+    background-color: #2d5e6d;
+    background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 30px 10px 30px;
+    min-height: 450px;
+}
+
+.shadowbox  {
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+.myProducts {
+    background-color: rgba(235,235,240,0.4);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 5px rgba(10,10,10,0.10);
+}
+
+.centerParagraph    {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 90%;
+    text-align: left;
+}
+
+a, a:hover, a:visited   {
+    text-decoration: none;
+}
+
+.buttons    {
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons2   {
+    display: flex;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.button {
+    width: 20%;
+    background-color: #ef474e;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-right: 25px;
+    min-width: 100px;
+    max-width: 150px;
+}
+
+a.button:hover  {
+    background-color: #f5d273;
+    border-color: #f5d273;
+}
+
+.red    {
+    background-color: #ef474e;
+    border-color: #ef474e;
+}
+
+.yellow {
+    background-color: #f5d273;
+    border-color: #f5d273;
+}
+
+.blue {
+    background-color: #2d5e6d;
+}
+
+.card a:hover    {
+    background-color: #2d5e6d;
+    border-color: #2d5e6d;
+}
+
+.card-footer    {
+    text-align: center;
+}
+
+.split  {
+    margin-top: 50px;
+}
+
+.split .text {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 95%;
+}
+
+footer  {
+    min-height: 150px;
+    background-color: #2d5e6d;
+    color: white;
+    display: flex;
+}
+
+footer div  {
+    padding: 25px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+footer .quicklinks  {
+    text-align: left;
+    align-self: flex-end;
+}
+
+footer .text    {
+    text-align: center;
+    align-self: flex-end;
+}
+
+.footerlogo {
+    text-align: right;
+    align-self: flex-end;
+}
+
+ul, li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li  a, a:visited    {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: #f5d273;
+}
+
+@media (min-width: 600px)   {
+    body    {
+        font-size: 1em;
+    }
+    .hero   {
+        background-color: #2d5e6d;
+        background-image: url(images/onyx_rack_of_clothes.jpg);
+    }
+    .shadowbox  {
+        background-color: rgba(10,10,10,0.35);
+        margin-bottom: 10px;
+    }
+    .centerParagraph    {
+        text-align: center;
+    }
+    .buttons    {
+        display: inline-flex;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .buttons div    {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .split  {
+        text-align: center;
+    }
+}
+
+@media  (min-width: 900px)  {
+    body    {
+        font-size: 1.1em;
+    }
+    .shadowbox  {
+        max-width: 750px;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+    .buttons2   {
+        display: inline-flex;
+        align-content: center;
+    }
+    .split  {
+        display: flex;
+    }
+    .split .text   {
+        padding-left: 10%;
+    }
+}
+
+@media  (min-width: 1200px) {
+    .split .text   {
+        padding-left: 15%;
+    }
+}
